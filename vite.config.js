@@ -6,4 +6,7 @@ import tailwindcss from '@tailwindcss/vite'
 export default defineConfig({
   plugins: [react(), tailwindcss()],
   base: '/Isckon-dhanbad', // Adjust this if your app is hosted in a subdirectory
+  build: {
+    outDir: 'dist',
+  },
 })
