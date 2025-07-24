@@ -52,7 +52,7 @@ const Broadcast = () => {
       {/* 💠 Right - Deity Image */}
       <div className="w-full lg:w-1/2 h-[80vh] min-h-[600px]">
         <img
-          src="GN1.png"
+          src="../public/GN1.png"
           alt="Radha Krishna"
           className="w-full h-full object-cover"
         />
