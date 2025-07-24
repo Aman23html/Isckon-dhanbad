@@ -31,7 +31,7 @@ import AnnaDaan from './components/Dontionmenu/AnnaDaan';
 import GitaDaan from './components/Dontionmenu/GitaDaan';
 import TribalCare from './components/Dontionmenu/TribalCare';
 import VaishnavSeva from './components/Dontionmenu/VaishnavSeva';
-import NityaSeva from './components/Dontionmenu/Nityaseva';
+
 import FestivalSupport from './components/Dontionmenu/FestivalSupport';
 
 import DonationPaymentPage from './pages/donation/DonationPaymentPage';
@@ -86,7 +86,7 @@ const App = () => {
           <Route path="/donate/gita-daan" element={<GitaDaan />} />
           <Route path="/donate/tribal-care-seva" element={<TribalCare />} />
           <Route path="/donate/vaishnava-seva" element={<VaishnavSeva />} />
-          <Route path="/donate/nitya-seva" element={<NityaSeva />} />
+         
           <Route path="/donate/festival-support" element={<FestivalSupport />} />
 
 
